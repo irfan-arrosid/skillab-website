@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skillab</title>
+
+    <link rel="stylesheet" href="Frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Frontend/styles/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="Frontend/libraries/bootstrap/js/bootstrap.js"></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <div class="container px-2">
+        <nav class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+            <a href="index.html" class="navbar-brand">
+                <img src="Frontend/images/Logo_Skillab.png" alt="Skillab Logo">
+            </a>
+
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="index.html" class="nav-link active px-3">Home</a></li>
+                <li><a href="#" class="nav-link px-3">Courses</a></li>
+                <li><a href="#" class="nav-link px-3">News</a></li>
+                <li><a href="#" class="nav-link px-3">Contact</a></li>
+            </ul>
+
+            <div class="col-md-3 text-end">
+                <button type="button" class="btn btn-outline me-4">Login</button>
+                <button type="button" class="btn btn-login">Register</button>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Header -->
+
+    <div class="container header px-2">
+        <div class="row flex-lg-row-reverse flex-column align-items-center g-5 pt-5">
+            <div class="mt-0 col-lg-6 x-0">
+                <img src="Frontend/images/Illustration_Hero.png" class="illustration-hero img-fluid">
+            </div>
+            <div class="col-lg-5">
+                <h1 class="hero-text mb-4">Get Amazing Skills<br>Let's Get a Better Future</h1>
+                <p class="lead mb-5">We provide many courses for you to learn<br>and master the skills which world need<br>in the future</p>
+                <div class="input-group shadow mb-3">
+                    <input type="text" class="form-control" placeholder="Find your course" aria-label="Find your course" aria-describedby="button-addon2">
+                    <button class="btn btn-search" type="button" id="button-addon2">
+                        <img src="Frontend/images/Icon_Search.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features -->
+
+    <div class="container features px-2">
+        <div class="row flex-lg-row-reverse">
+            <div class="col-lg-6 px-0 pt-5">
+                <h2 class="features-text text-center">What will you get?</h2>
+                <div class="d-flex flex-row flex-wrap">
+                    <div class="values col-6">
+                        <img src="Frontend/images/Icon_Award.png" alt="" class="features-icon">
+                        <p class="title">Award certificate</p>
+                        <p class="description">You will be awarded a certificate<br>of appreciation after you have<br>completed your course.</p>
+                    </div>
+                    <div class="values col-6">
+                        <img src="Frontend/images/Icon_Lifetime.png" alt="" class="features-icon">
+                        <p class="title">Lifetime access</p>
+                        <p class="description">You can access the course at<br>anytime and many times<br>you want.</p>
+                    </div>
+                    <div class="values col-6">
+                        <img src="Frontend/images/Icon_Mentor.png" alt="" class="features-icon">
+                        <p class="title">Expert mentors</p>
+                        <p class="description">You will be guided by the best<br>mentors in your chosen field.</p>
+                    </div>
+                    <div class="values col-6">
+                        <img src="Frontend/images/Icon_Group.png" alt="" class="features-icon">
+                        <p class="title">Discussion group</p>
+                        <p class="description">You can meet and discuss<br>with many people in the<br>professional community.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-6 px-0">
+                <img src="Frontend/images/Illustration_Features.png" alt="" class="illustration-features">
+            </div>
+        </div>
+    </div>
+
+    <!-- Populars -->
+
+    <div class="container popular position-relative px-2">
+        <div class="popular-header d-flex justify-content-between align-items-center">
+            <h2 class="popular-text">Popular Courses</h2>
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
+                    All
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">Business Development</a></li>
+                    <li><a href="#" class="dropdown-item">Computer Science</a></li>
+                    <li><a href="#" class="dropdown-item">Design</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="card shadow">
+                <div class="card-image">
+                    <img src="Frontend/images/Image_1.png">
+                    <span class="category">Computer Science</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Data Analyst and Scientist</h3>
+                    <div class="row">
+                        <div class="card-user col-6 d-flex align-items-center justify-content-start pe-0">
+                            <img src="Frontend/images/Icon_User.png" class="icon">
+                            <div class="description flex-grow">456K users</div>
+                        </div>
+                        <div class="card-lesson col-6 d-flex align-items-center justify-content-end">
+                            <img src="Frontend/images/Icon_Lesson.png" class="icon">
+                            <div class="description flex-grow">165 lesson</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="review d-flex col-6 align-items-center justify-content-start pe-0">
+                            <img src="Frontend/images/Icon_Review.png" class="star">
+                            <img src="Frontend/images/Icon_Review.png" class="star">
+                            <img src="Frontend/images/Icon_Review.png" class="star">
+                            <img src="Frontend/images/Icon_Review.png" class="star">
+                            <img src="Frontend/images/Icon_Review.png" class="star">
+                            <p class="flex-grow">(5)</p>
+                        </div>
+                        <div class="price col-6 d-flex justify-content-end align-items-center ps-0">
+                            <p class="my-0">$289</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <div class="card-image">
+                    <img src="Frontend/images/Image_2.png">
+                    <span class="category">Design</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">UX Researcher and Writer</h3>
+                    <div class="row">
+                        <div class="card-user col-6 d-flex align-items-center justify-content-start pe-0">
+                            <img src="Frontend/images/Icon_User.png" class="icon">
+                            <div class="description flex-grow">320K users</div>
+                        </div>
+                        <div class="card-lesson col-6 d-flex align-items-center justify-content-end">
+                            <img src="Frontend/images/Icon_Lesson.png" class="icon">
+                            <div class="description flex-grow">184 lesson</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="review d-flex col-6 align-items-center justify-content-start pe-0">
+                            <img src="Frontend/images/Icon_Review.png" class="star">
+                            <img src="Frontend/images/Icon_Review.png" class="star">
+                            <img src="Frontend/images/Icon_Review.png" class="star">
+                            <img src="Frontend/images/Icon_Review.png" class="star">
+                            <img src="Frontend/images/Icon_Review.png" class="star">
+                            <p class="flex-grow">(5)</p>
+                        </div>
+                        <div class="price col-6 d-flex justify-content-end align-items-center ps-0">
+                            <p class="my-0">$225</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <div class="card-image">
+                    <img src="Frontend/images/Image_3.png">
+                    <span class="category">Computer Science</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Full-Stack Web Developer</h3>
+                    <div class="row">
+                        <div class="card-user col-6 d-flex align-items-center justify-content-start pe-0">
+                            <img src="Frontend/images/Icon_User.png" class="icon">
+                            <div class="description flex-grow">307K users</div>
+                        </div>
+                        <div class="card-lesson col-6 d-flex align-items-center justify-content-end">
+                            <img src="Frontend/images/Icon_Lesson.png" class="icon">
+                            <div class="description flex-grow">201 lesson</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="review d-flex col-6 align-items-center justify-content-start pe-0">
+                            <img src="Frontend/images/Icon_Review.png" class="star">
+                            <img src="Frontend/images/Icon_Review.png" class="star">
+                            <img src="Frontend/images/Icon_Review.png" class="star">
+                            <img src="Frontend/images/Icon_Review.png" class="star">
+                            <img src="Frontend/images/Icon_Review.png" class="star">
+                            <p class="flex-grow">(5)</p>
+                        </div>
+                        <div class="price col-6 d-flex justify-content-end align-items-center ps-0">
+                            <p class="my-0">$250</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <div class="card-image">
+                    <img src="Frontend/images/Image_4.png">
+                    <span class="category">Business Development</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Digital Marketing Specialist</h3>
+                    <div class="row">
+                        <div class="card-user col-6 d-flex align-items-center justify-content-start pe-0">
+                            <img src="Frontend/images/Icon_User.png" class="icon">
+                            <div class="description flex-grow">283K users</div>
+                        </div>
+                        <div class="card-lesson col-6 d-flex align-items-center justify-content-end">
+                            <img src="Frontend/images/Icon_Lesson.png" class="icon">
+                            <div class="description flex-grow">118 lesson</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="review d-flex col-6 align-items-center justify-content-start pe-0">
+                            <img src="Frontend/images/Icon_Review.png" class="star">
+                            <img src="Frontend/images/Icon_Review.png" class="star">
+                            <img src="Frontend/images/Icon_Review.png" class="star">
+                            <img src="Frontend/images/Icon_Review.png" class="star">
+                            <img src="Frontend/images/Icon_Review.png" class="star">
+                            <p class="flex-grow">(5)</p>
+                        </div>
+                        <div class="price col-6 d-flex justify-content-end align-items-center ps-0">
+                            <p class="my-0">$175</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button position-absolute end-0">
+            <button type="button" class="btn btn-outline-primary">See all courses</button>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+
+    <div class="container testimonials px-2">
+        <h2 class="testimonials-title text-center">What our users said</h2>
+        <div class="row flex-row justify-content-center mx-0">
+            <div class="card shadow position-relative me-4">
+                <div class="ornament">
+                    <div class="ornament-yellow position-absolute top-0 start-0"></div>
+                    <div class="ornament-blue position-absolute bottom-0 end-0"></div>
+                </div>
+                <p class="testimonial-text position-relative">
+                    I am very happy to be able to study here. The mentors are very friendly and professional. They taught me until I really understood it. Now I master what they have taught me.
+                </p>
+                <div class="testimonials-profile position-absolute bottom-0">
+                    <hr>
+                    <div class="row flex-row align-items-center mx-0">
+                        <img src="Frontend/images/Ava_1.png" class="ava col-6 px-0">
+                        <div class="profile col-7 px-0">
+                            <div class="name">Emery Curtis</div>
+                            <div class="jobs">Graphic Designer</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow position-relative">
+                <div class="ornament">
+                    <div class="ornament-yellow position-absolute top-0 start-0"></div>
+                    <div class="ornament-blue position-absolute bottom-0 end-0"></div>
+                </div>
+                <p class="testimonial-text position-relative">
+                    It's still hard to believe, I can finally do something I've been dreaming of for so long and it's so much fun doing it all day long.
+                </p>
+                <div class="testimonials-profile position-absolute bottom-0">
+                    <hr>
+                    <div class="row flex-row align-items-center mx-0">
+                        <img src="Frontend/images/Ava_2.png" class="ava col-6 px-0">
+                        <div class="profile col-7 px-0">
+                            <div class="name">Marcus Siphron</div>
+                            <div class="jobs">Web Developer</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow position-relative ms-4">
+                <div class="ornament">
+                    <div class="ornament-yellow position-absolute top-0 start-0"></div>
+                    <div class="ornament-blue position-absolute bottom-0 end-0"></div>
+                </div>
+                <p class="testimonial-text position-relative">
+                    Really have no regrets ever studying here. I can better understand the business and its strategies become easier and more organized. The lessons match real life.
+                </p>
+                <div class="testimonials-profile position-absolute bottom-0">
+                    <hr>
+                    <div class="row flex-row align-items-center mx-0">
+                        <img src="Frontend/images/Ava_3.png" class="ava col-6 px-0">
+                        <div class="profile col-7 px-0">
+                            <div class="name">Nolan Korsgaard</div>
+                            <div class="jobs">Business Owner</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="prevnext row justify-content-center">
+            <img class="btn-prevnext col-1 me-1 px-0" type="button" src="Frontend/images/Icon_Previous.png">
+            <img class="btn-prevnext col-1 ms-1 px-0" type="button" src="Frontend/images/Icon_Next.png">
+        </div>
+    </div>
+
+    <!-- Banner -->
+
+    <div class="container-fluid banner position-relative text-center px-0">
+        <div class="banner-content mx-0">
+            <h1 class="px-0">Let's Build Your Skill<br>With Us</h1>
+            <button type="button" class="btn btn-join">Join for FREE</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="container footer px-2">
+        <div class="footer-pages row flex-row">
+            <div class="col-3 ps-2 pe-0">
+                <img src="Frontend/images/Logo_Skillab.png" class="footer-logo">
+                <p class="description">
+                    We provide many courses<br>for you to learn and master<br>the skills which world need<br>in the future.
+                </p>
+            </div>
+            <div class="col-2 px-0">
+                <h5>About Us</h5>
+                <ul class="unstyled-list">
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">All Courses</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="col-2 px-0">
+                <h5>Terms of Service</h5>
+                <ul class="unstyled-list">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Became a Mentor</a></li>
+                </ul>
+            </div>
+            <div class="col-2 px-0">
+                <h5>Social Media</h5>
+                <ul class="unstyled-list">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright row justify-content-center my-2">
+            <div class="col-auto">
+                2020 Atira Studio. All Right Reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
